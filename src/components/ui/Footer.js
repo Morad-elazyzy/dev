@@ -14,13 +14,13 @@ const Footer = () => {
           >
             <i className="fa fa-github-square"></i>
           </a>
-          <a
+          {/* <a
             href="https://www.linkedin.com/in/morad-elazyzy-8b12401a6/"
             target="_blank"
             rel="noreferrer"
           >
             <i className="fa fa-linkedin"></i>
-          </a>
+          </a> */}
           <a
             href="https://www.behance.net/morad-elazyzy"
             target="_blank"

@@ -16,6 +16,10 @@ header {
   background-size: cover;
 
   .header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     .avatar-img img {
       width: 90px;
@@ -41,7 +45,7 @@ header {
     }
     p {
       color: #fff;
-      max-width: 350px;
+      max-width: 500px;
       margin: auto;
       @extend %mainP;
     }
