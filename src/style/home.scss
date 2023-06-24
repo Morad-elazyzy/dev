@@ -54,12 +54,15 @@ header {
 }
 
 ///PROJECTS CATEGORIES STYLE
-
+.container{
+  margin: auto;
+}
 .projects-categories {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(276px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(276px, 1fr));
   grid-gap: 33px;
   width: 90%;
+  max-width: 1200px ;
   margin: 200px auto;
   @media (max-width: $phone) {
     grid-gap: 90px;
